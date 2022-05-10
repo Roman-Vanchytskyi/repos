@@ -4,45 +4,142 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Вивчення основ HTML5 для новачків" />
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Resume</title>
 </head>
 <body>
-    <!-- Шапка сторінки -->
-    <header>
-        <a href="/">Логотип сайту</a>
 
-        <ul>
-            <li>Меню навігації по інших сторінках</li>
-        </ul>
-    </header>
+    <!-- main -->
+<div class="main">
 
-<audio controls>
-    <source src="audio.mp3" type="audio/mpeg">
-    <source src="audio.ogg" type="audio/ogg">
-    <p>
-        Ваш браузер не поддерживает встроенное аудио. Попробуйте
-        <a href="audio.mp3" download>скачать</a> файл.
-    </p>
-</audio>
+    <!-- main content -->
+    <div class="main-content">
+       <!-- about user -->
+       <div class="about"> 
+           <h2 class="about-position">Front-End Developer</h2>
+        
+           <h1 class="about-name">Roman Vanchytskyi</h1>
+        
+            <p class="about-discription">Specialist in various fields. I want to change my career.
+            </p> 
+        </div>
+        <!-- Projects -->
+        <div class="projects">
+            <h3 class="title">
+                Projects
+            </h3>
+            <ol class="project-list">
+                <li class="project-item"> 
+                    <span class="project"><a href="https://hellenglish.goit.global/" class="project-link">https://hellenglish.goit.global/</a>
+                    ......................................
+                    <span class="project-bracket">[</span> HTML5, CSS3 <span class="project-bracket">]</span>
+                     </span>
+                </li>
 
+                <li class="project-item">
+                    <span class="project"><a href="https://cryptohub.goit.global/" class="project-link">https://cryptohub.goit.global/</a>
+                    .........................................
+                    <span class="project-bracket">[</span> JavaScript <span class="project-bracket">]</span>
+                    </span>     
+                </li>
 
+                <li class="project-item"> 
+                    <span class="project"><a href="https://kidslike.goit.global/" class="project-link">https://kidslike.goit.global/</a>
+                    ..............................................
+                    <span class="project-bracket">[</span> React.js, Node.js <span class="project-bracket">]</span>
+                    </span>
+                </li>
+            </ol>
+        </div>
+        <!-- Work -->
+        <div class="work">
+            <h3 class="title">Work Experience</h3>
+            <!-- Company 1 -->
+            <div>
+                <h4 class="work-position">Front-End Developer <span class="organization">Freelance</span> </h4>
+                <p class="period">September 2019 - up to now <span class="line">|</span> Ukraine</p>
+                <ul class="work-list">
+                    <li class="work-list-item">Junior developer after completing FullStack courses in GO IT</li>
+                    <li class="work-list-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit</li>
+                    <li class="work-list-item">Risus commodo viverra maecenas</li>
+                    <li class="work-list-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod</li>
+                </ul>
+            </div>
+            <!-- Company 2 -->
+            <div>
+                <h4 class="work-position">Security Manager <span class="organization">Thermal Power Plant</span></h4>
+                <p class="period">March 2014 - September 2019 <span class="line">|</span> Ukraine, Kyiv</p>
+                <ul class="work-list">
+                    <li class="work-list-item">Fire safety</li>
+                    <li class="work-list-item">Technogenic safety</li>
+                    <li class="work-list-item">Civil defense</li>
+                </ul>
+            </div>
+            <!-- Company 3 -->
+            <div>
+                <h4 class="work-position">Supplier <span class="organization">Thermal Power Plant</span></h4>
+                <p class="period">October 2010 - March 2014 <span class="line">|</span> Ukraine, Kyiv</p>
+                <ul class="work-list">
+                    <li class="work-list-item">Support for the supply of goods for main production</li>
+                    <li class="work-list-item">Contract work</li>
+                    <li class="work-list-item">Acceptance of goods, payments</li>
+                </ul>
+            </div>
+        </div>
+        <!-- Education -->
+        <div class="education">
+            <h3 class="title">Education</h3>
+            <h4 class="education-place">Lviv Polytechnic National University</h4>
+            <h5 class="faculty">Power Plants</h5>
+            <p class="period">September 2014 - May 2017 <span class="line">|</span> Ukraine</p>
+        </div>
+    </div>
 
+    <!-- sidebar -->
+    <aside class="sidebar"> 
+        <img src="img/DSC_3764.JPG" alt="roma prypyat" width="400" class="photo">
+        <!-- Contacts -->
+        <div class="contacts">
+            <h3 class="sidebar-title">Contacts</h3>
+            <div>
+                <p>
+                    <span class="contact-type">E:</span>
+                    <a href="tel:+380503565871" class="contact-link">+38 050 356 58 71</a>
+                </p>
+                <p>
+                    <span class="contact-type">C:</span>
+                    <a href="mailto:owles@i.ua" class="contact-link">owles@i.ua</a>
+                </p>
+            </div>
+        </div>
+        <!-- Tech skills -->
+        <div class="tech-skills">
+            <h3 class="sidebar-title">Tech skills</h3>
+            <ul class="tech-skills-list">
+                <li class="tech-skills-item"> <span class="tech-skills-text">HTML5</span> </li>
+                <li class="tech-skills-item"> <span class="tech-skills-text">CSS3</span> </li>
+                <li class="tech-skills-item"> <span class="tech-skills-text">GIT</span> </li>
+                <li class="tech-skills-item"> <span class="tech-skills-text">WebPack</span> </li>
+                <li class="tech-skills-item"> <span class="tech-skills-text">JavaScript</span> </li>
+                <li class="tech-skills-item"> <span class="tech-skills-text">React.js</span> </li>
+                <li class="tech-skills-item"> <span class="tech-skills-text">Node.js</span> </li>
+            </ul>
+        </div>
+        <!-- Soft skills -->
+        <div class="soft-skills">
+            <h3 class="sidebar-title">Soft skills</h3>
+            <ul class="soft-skills-list">
+                <li class="soft-skills-item"> <span class="soft-skills-text">Scrum</span> </li>
+                <li class="soft-skills-item"> <span class="soft-skills-text">Agile</span> </li>
+                <li class="soft-skills-item"> <span class="soft-skills-text">GTD</span> </li>
+                <li class="soft-skills-item"> <span class="soft-skills-text">Teamwork</span> </li>
+            </ul>
+        </div>
+    </aside>
+</div>
 
-
-
-    <!-- Підвал сторінки -->
-    <footer>
-        <!-- Копірайт -->
-        <p>Всі права захищені &copy;lpj.dev</p>
-
-        <!-- Посилання на соцмережі -->
-        <ul>
-            <li><a href="">Facebook</a></li>
-            <li><a href="">Twitter</a></li>
-            <li><a href="">Instagram</a></li>
-        </ul>
-    </footer>
 </body>
 </html>
-
